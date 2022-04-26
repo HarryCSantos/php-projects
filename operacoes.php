@@ -10,7 +10,6 @@ $divisao = 2 / 2;
 
 $doisAoCubo = 2 ** 3;
 
-//echo $idadeDaqui10anos;
+$restoDadivisao = 10 % 3;
 
-echo $soma; $subtracao; $multiplicacao; $divisao;
-echo $doisAoCubo;
+echo $restoDadivisao;
