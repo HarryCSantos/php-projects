@@ -10,6 +10,8 @@ $divisao = 2 / 2;
 
 $doisAoCubo = 2 ** 3;
 
-$restoDadivisao = 10 % 3;
+$restoDadivisao = 20 % 3;
 
-echo $restoDadivisao;
+$salario = 1247.45;
+
+echo gettype($salario);
