@@ -14,4 +14,7 @@ $restoDadivisao = 20 % 3;
 
 $salario = 1247.45;
 
-echo gettype($divisao);
+$verdadeiro = true;
+$false = false;
+
+echo gettype($verdadeiro);
