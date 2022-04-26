@@ -8,7 +8,7 @@ $subtracao = 2- 2;
 $multiplicacao = 2 * 2;
 $divisao = 2 / 2;
 
-$doisAoCubo;
+$doisAoCubo = 2 ** 3;
 
 //echo $idadeDaqui10anos;
 
