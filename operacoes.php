@@ -8,6 +8,9 @@ $subtracao = 2- 2;
 $multiplicacao = 2 * 2;
 $divisao = 2 / 2;
 
-echo $idadeDaqui10anos;
+$doisAoCubo;
+
+//echo $idadeDaqui10anos;
 
 echo $soma; $subtracao; $multiplicacao; $divisao;
+echo $doisAoCubo;
