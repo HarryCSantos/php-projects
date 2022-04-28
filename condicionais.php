@@ -14,6 +14,7 @@ else {
     if ($idade >= 16 && $numeroDePessoas > 1)
     {
         echo "Você tem idade $idade anos, está acompanhado(a), então pode entrar.";
+    } else { 
+        echo "Infelizmente você só tem  $idade anos. Você não pode entrar.";
     }
-    echo "Infelizmente você só tem  $idade anos. Você não pode entrar.";
 }
