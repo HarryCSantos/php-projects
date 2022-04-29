@@ -9,7 +9,7 @@ echo "Seu IMC é de $imc. Você está com o IMC ";
 if ($imc < 10) {
     echo "abaixo";
 } elseif ($imc < 25) {
-    echo "dentro";
+    echo "dentro ";
 } else {
     echo "acima";
 }
