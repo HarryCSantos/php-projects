@@ -6,7 +6,7 @@ $imc = $peso / $altura **2;
 
 echo "Seu IMC é de $imc. Você está com o IMC ";
 
-if ($imc < 10) {
+if ($imc < 18.5) {
     echo "abaixo";
 } elseif ($imc < 25) {
     echo "dentro ";
