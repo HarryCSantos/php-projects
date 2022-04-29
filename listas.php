@@ -1,6 +1,6 @@
 <?php
 
 $idadeList = [22, 12, 15, 43, 53, 5];
-$firstage = $idadeList [0];
+$age = $idadeList [3];
 
-echo $firstage;
+echo $age;
