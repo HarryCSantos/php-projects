@@ -4,5 +4,5 @@ $contaCorrente = [12345678910 => ['titular' => 'Harry', 'saldo' => 1000], 123456
 ];
 
 foreach ($contaCorrente as $cpf => $conta) {
-    echo $cpf .PHP_EOL;
+    echo $cpf . "" . $conta['titular'] .PHP_EOL;
 }
