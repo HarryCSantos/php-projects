@@ -8,5 +8,5 @@ $contaCorrente = [12345678910 => ['titular' => 'Harry',
 $contaCorrente[12345678910]['saldo'] -= 500;
 
 foreach ($contaCorrente as $cpf => $conta) {
-    echo $cpf . " " . $conta['titular'] .PHP_EOL;
+    echo $cpf . " " . $conta['titular'] . " " . $conta['saldo'] .PHP_EOL;
 }
