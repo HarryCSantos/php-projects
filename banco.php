@@ -7,6 +7,7 @@ function sacar($conta, $valorASacar)
     } else {
         $conta['saldo'] -= $valorASacar;
     }
+    return $conta;
 }
 
 function exibeMensagem($mensagem)
@@ -24,4 +25,6 @@ $contaCorrente['12345678910'] = sacar($contaCorrente['12345678910'], 2500 );
 foreach ($contaCorrente as $cpf => $conta) {
     exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
 }
+
+
 
