@@ -11,6 +11,8 @@ function sacar($conta, $valorASacar)
     } else {
         $conta['saldo'] -= $valorASacar;
     }
+
+    return $conta;
 }
 
 $contasCorrentes = [
