@@ -29,3 +29,9 @@ function depositar($conta, $valorADepositar)
     return $conta;
 }
 
+function titularComLetrasMaiusculas(array &$conta)
+{ 
+    $conta['titular'] = strtoupper($conta['titular']); 
+
+    echo $conta['titular'] . PHP_EOL;
+}
