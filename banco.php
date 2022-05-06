@@ -1,10 +1,5 @@
 <?php
 
-function exibeMensagem($mensagem)
-{
-    echo $mensagem . PHP_EOL;
-}
-
 function sacar($conta, $valorASacar)
 {
     if ($valorASacar > $conta['saldo']) {
@@ -15,12 +10,24 @@ function sacar($conta, $valorASacar)
     return $conta;
 }
 
+function exibeMensagem($mensagem)
+{
+    echo $mensagem . PHP_EOL;
+}
+
+function depositar($conta, $valorADepositar)
+{
+    $conta['saldo'] += $valorADepositar;
+}
+
 $contaCorrente = [12345678910 => ['titular' => 'Harry',
 'saldo' => 1000], 12345678911 => ['titular' => 'Miguel',
 'saldo' => 10000], 12345678912 => ['titular' => 'Maria', 'saldo' => 5000]
 ];
 
 $contaCorrente['12345678910'] = sacar($contaCorrente['12345678910'], 2500 );
+
+$contaCorrente[12345678911] = depositar($contaCorrente[12345678911], 900);
 
 foreach ($contaCorrente as $cpf => $conta) {
     exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
