@@ -17,7 +17,15 @@ function exibeMensagem($mensagem)
 
 function depositar($conta, $valorADepositar)
 {
-    $conta['saldo'] += $valorADepositar;
+    if ($valorADepositar > 0)
+    {
+        $conta['saldo'] += $valorADepositar;
+    } else
+      {
+          exibeMensagem("Depositos precisam ser positivos");
+      }
+    
+    return $conta;
 }
 
 $contaCorrente = [12345678910 => ['titular' => 'Harry',
@@ -27,7 +35,7 @@ $contaCorrente = [12345678910 => ['titular' => 'Harry',
 
 $contaCorrente['12345678910'] = sacar($contaCorrente['12345678910'], 2500 );
 
-$contaCorrente[12345678911] = depositar($contaCorrente[12345678911], 900);
+$contaCorrente[12345678911] = depositar($contaCorrente[12345678911], -399);
 
 foreach ($contaCorrente as $cpf => $conta) {
     exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
