@@ -38,7 +38,7 @@ $contaCorrente['12345678910'] = sacar($contaCorrente['12345678910'], 2500 );
 $contaCorrente[12345678911] = depositar($contaCorrente[12345678911], 1000);
 
 foreach ($contaCorrente as $cpf => $conta) {
-    exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
+    exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
 }
 
 
