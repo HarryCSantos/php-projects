@@ -29,3 +29,7 @@ function depositar($conta, $valorADepositar)
     
     return $conta;
 }
+
+foreach ($contaCorrente as $cpf => $conta) {
+    exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+}
