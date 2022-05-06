@@ -1,5 +1,6 @@
 <?php
 
+include 'funcoes.php';
 
 $contaCorrente = [12345678910 => ['titular' => 'Harry',
 'saldo' => 1000], 12345678911 => ['titular' => 'Miguel',
