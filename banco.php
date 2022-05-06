@@ -12,7 +12,7 @@ $contaCorrente['12345678910'] = sacar($contaCorrente['12345678910'], 2500 );
 $contaCorrente[12345678911] = depositar($contaCorrente[12345678911], 1000);
 
 {
-    $conta['titular'] = mb_strtoupper($conta['titular']);
+    $conta['titular'] = strtoupper($conta['titular']);
 }
 
 foreach ($contaCorrente as $cpf => $conta) {
