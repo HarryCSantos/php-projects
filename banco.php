@@ -1,5 +1,10 @@
 <?php
 
+function exibeMensagem($mensagem)
+{
+    echo $mensagem . PHP_EOL;
+}
+
 function sacar($conta, $valorASacar)
 {
     if ($valorASacar > $conta['saldo']) {
@@ -10,10 +15,6 @@ function sacar($conta, $valorASacar)
     return $conta;
 }
 
-function exibeMensagem($mensagem)
-{
-    echo $mensagem . PHP_EOL;
-}
 
 $contaCorrente = [12345678910 => ['titular' => 'Harry',
 'saldo' => 1000], 12345678911 => ['titular' => 'Miguel',
