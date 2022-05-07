@@ -29,8 +29,13 @@ echo "</ul>";
 <body>
     <h1>Contas Correntes</h1>
     <dl>
+        <?php foreach($contaCorrente as $conta)
+        { ?>
+            
+        
         <dt><h3>$conta['titular']; $cpf;</h3></dt>
         <dd>Saldo: $conta['saldo'];</dd>
+        <?php } ?>
     </dl>
 </body>
 </html>
