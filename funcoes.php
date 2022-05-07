@@ -39,5 +39,5 @@ function titularComLetrasMaiusculas(array &$conta)
 function exibeConta (array $conta)
 {
     ['titular' => $titular, 'saldo' => $saldo] = $conta;
-    echo "<li>Titular: $titular. Saldo: {$saldo['saldo']}</li>";
+    echo "<li>Titular: $titular. Saldo: $saldo</li>";
 }
