@@ -18,6 +18,18 @@ foreach ($contaCorrente as $cpf => $conta) {
     exibeConta($conta);
 }
 echo "</ul>";
+?>
+
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+<body>
+    <h1>Contas Correntes</h1>
+</body>
+</html>
 
 
 
