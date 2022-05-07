@@ -37,7 +37,7 @@ echo "</ul>";
             <h3><?php echo $conta['titular']; ?> - <?php echo $cpf; ?></h3>
         </dt>
         <dd>
-            Saldo: $conta['saldo'];
+            Saldo: <?php echo $conta['saldo']; ?>
         </dd>
         <?php } ?>
     </dl>
