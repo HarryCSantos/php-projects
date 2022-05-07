@@ -28,6 +28,10 @@ echo "</ul>";
     </head>
 <body>
     <h1>Contas Correntes</h1>
+    <dl>
+        <dt>$conta['titular']; $cpf;</dt>
+        <dd>Saldo: $conta['saldo'];</dd>
+    </dl>
 </body>
 </html>
 
