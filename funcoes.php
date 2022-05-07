@@ -13,7 +13,7 @@ function sacar($conta, $valorASacar)
 
 function exibeMensagem($mensagem)
 {
-    echo $mensagem . PHP_EOL;
+    echo $mensagem . '<br>';
 }
 
 function depositar($conta, $valorADepositar)
