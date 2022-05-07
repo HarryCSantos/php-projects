@@ -13,9 +13,11 @@ $contaCorrente[12345678911] = depositar($contaCorrente[12345678911], 1000);
 
 titularComLetrasMaiusculas($contaCorrente['12345678910']);
 
+echo "<ul>";
 foreach ($contaCorrente as $cpf => $conta) {
     exibeConta($conta);
 }
+echo "</ul>";
 
 
 
