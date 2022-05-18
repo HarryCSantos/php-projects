@@ -4,5 +4,5 @@
 <?php echo "<ul><li>You can use any HTML tags, </li><li>like this list.</li></ul>";?>
 <footer>
     <p>And this code is back in tendencia uma semana sem preaticar vamos recuperar
-         defendeu plain HTML this winter deu green pratica</p>
+         defendeu plain code HTML this winter deu green pratica</p>
 </footer>
