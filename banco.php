@@ -28,7 +28,7 @@ echo "</ul>";
     </head>
 <body>
     <h1>Contas a hard day life is easy? another day more 
-        God I need news my account is correct now Correntes day after day today is a better day introvert acidente de carro mae mas ficou td bem gracas a Deus treinamento mais um dia de treinamento superdigital problema compra preciso estudar muito...folga domingo onze e quatro operaçao access unit sequence mental vicio tentando um novo dia entrevista 03/06 nao passei cry curso comunication concordo mais uma entrevista, entrevista com gestor entrega de documentação sinceramente não sei se serei admitido assistindo Abba English graças a Deus tudo está se encaminhando fui contratado :) it's a hard day today :(( )) tolima health jjj,lj duolingo familia DEUS e o caminho</h1>
+        God I need news my account is correct now mãe em casa dormindomCorrentes day after day today is a better day introvert acidente de carro mae mas ficou td bem gracas a Deus treinamento mais um dia de treinamento superdigital problema compra preciso estudar muito...folga domingo onze e quatro operaçao access unit sequence mental vicio tentando um novo dia entrevista 03/06 nao passei cry curso comunication concordo mais uma entrevista, entrevista com gestor entrega de documentação sinceramente não sei se serei admitido assistindo Abba English graças a Deus tudo está se encaminhando fui contratado :) it's a hard day today :(( )) tolima health jjj,lj duolingo familia DEUS e o caminho</h1>
     <dl>
         <?php foreach($contaCorrente as $cpf => $conta)
         { ?>
