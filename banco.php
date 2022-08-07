@@ -23,11 +23,11 @@ echo "</ul>";
 <!Doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"> 
         <title>Document</title>
     </head>
 <body>
-    <h1>Contas news bills a hard day life is easy? another more tear another change exercise awake i can change new productive day hour news another a day try tired change change lol another   no desânimo day more 
+    <h1>Contas news bills a hard 06-08 my son at my home day life is easy? another more tear another change exercise awake i can change new productive day hour news another a day try tired change change lol another   no desânimo day more 
         God I need news my account is correct now mãe primeiro monday wednesday oh no  saturday today assauto interview dia de trabalho horário normal patrimonio sick god another day another.. saturday sunday i saw my son  em casa dormindomCorrentes day after day today is a better day introvert acidente de carro mae mas ficou td bem gracas a Deus treinamento mais um dia de treinamento superdigital problema compra preciso estudar muito...folga domingo onze e quatro operaçao access unit sequence mental vicio tentando um novo dia entrevista 03/06 nao passei cry curso comunication concordo mais uma entrevista, entrevista com gestor entrega de documentação sinceramente não sei se serei admitido assistindo Abba English graças a Deus tudo está se encaminhando fui contratado :) it's a hard day today :(( )) tolima health jjj,lj duolingo familia DEUS e o caminho</h1>
     <dl>
         <?php foreach($contaCorrente as $cpf => $conta)
